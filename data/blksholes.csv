@@ -1,0 +1,4 @@
+Type,Spot(S),Strike(K),Time(T),Rate(r),Vol(sigma),ExpectedPrice
+CALL,100.0,100.0,1.0,0.05,0.20,10.4506
+PUT,100.0,100.0,1.0,0.05,0.20,5.5741
+CALL,50.0,60.0,0.5,0.01,0.30,1.4429
