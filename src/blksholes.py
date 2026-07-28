@@ -179,7 +179,8 @@ if __name__ == "__main__":
 
     print("\n--- Running CSV File Tests ---")
     # Option 2: Load from a file (Uncomment and replace "options_data.csv" with your actual file path)
-    # file_path = "options_data.csv"
-    # file_tests = read_data_from_csv(file_path)
-    # if file_tests:
-    #     run_test_cases(file_tests, tolerance=0.001)
+    #file_path = "data/options_data.csv"
+    file_path = "data/syn_options.csv"
+    file_tests = read_data_from_csv(file_path)
+    if file_tests:
+        run_test_cases(file_tests, tolerance=0.001)

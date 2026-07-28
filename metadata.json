@@ -1,0 +1,31 @@
+{
+    "tables": {
+        "table": {
+            "columns": {
+                "Type": {
+                    "sdtype": "categorical"
+                },
+                "Spot(S)": {
+                    "sdtype": "numerical"
+                },
+                "Strike(K)": {
+                    "sdtype": "numerical"
+                },
+                "Time(T)": {
+                    "sdtype": "numerical"
+                },
+                "Rate(r)": {
+                    "sdtype": "numerical"
+                },
+                "Vol(sigma)": {
+                    "sdtype": "numerical"
+                },
+                "ExpectedPrice": {
+                    "sdtype": "numerical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}
